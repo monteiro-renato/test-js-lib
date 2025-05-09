@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/sayHello.js", "../src/index.js"],
+  "sourcesContent": ["function sayHelloFn(personToSayHelloTo) {\n  if (personToSayHelloTo) {\n    return `Hello ${personToSayHelloTo}`;\n  } else {\n    return `Hello Stranger`;\n  }\n}\n\nexports.sayHello = sayHelloFn;\n", "export { sayHello } from './sayHello.js';\n"],
+  "mappings": "umBAAA,IAAAA,EAAAC,EAAAC,GAAA,UAASC,EAAWC,EAAoB,CACtC,OAAIA,EACK,SAASA,IAET,gBAEX,CAEAF,EAAQ,SAAWC,ICRnB,IAAAE,EAAA,GAAAC,EAAAD,EAAA,0CAAAE,EAAAF,GAAA,IAAAG,EAAyB",
+  "names": ["require_sayHello", "__commonJSMin", "exports", "sayHelloFn", "personToSayHelloTo", "src_exports", "__export", "__toCommonJS", "import_sayHello"]
+}
