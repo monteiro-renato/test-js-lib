@@ -1,0 +1,24 @@
+{
+    "name": "testlib-sayhello",
+    "repository": "https://github.com/monteiro-renato/test-js-lib",
+    "version": "0.0.1",
+    "description": "Return a string with a greeting",
+    "devDependencies": {
+        "esbuild": "^0.14.51",
+        "eslint": "^8.20.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.7.1"
+    },
+    "engines": {},
+    "scripts": {
+        "lint": "eslint --max-warnings 0 src",
+        "fix": "eslint --fix src",
+        "build": "esbuild ./src/index.js --bundle --sourcemap --minify --format=cjs --legal-comments=none --outfile=./build/index.js"
+    },
+    "keywords": [],
+    "author": "monteiro-renato",
+    "dependencies": {
+        "yarn": "^1.22.22"
+    }
+}

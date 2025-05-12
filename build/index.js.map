@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/sayHello/sayHello.js", "../src/other/sayBye.js", "../src/slack/slack.js", "../src/index.js"],
+  "sourcesContent": ["function sayHelloFn(personToSayHelloTo) {\n  if (personToSayHelloTo) {\n    return `Hello ${personToSayHelloTo}`;\n  } else {\n    return `Hello Stranger`;\n  }\n}\n\nexports.sayHello = sayHelloFn;\n", "function sayBye(personToSayByeTo) {\n  if (personToSayByeTo) {\n    return `Bye ${personToSayByeTo}`;\n  } else {\n    return `Bye Stranger`;\n  }\n}\n\nexports.sayBye = sayBye;\n", "function postSlackMessage() {\n  console.log('Sending message to slack');\n}\n\nexports.postSlackMessage = postSlackMessage;\n", "export { sayHello } from './sayHello/sayHello.js';\nexport { sayBye } from './other/sayBye.js';\nexport { postSlackMessage } from './slack/slack.js';\n"],
+  "mappings": "umBAAA,IAAAA,EAAAC,EAAAC,GAAA,UAASC,EAAWC,EAAoB,CACtC,OAAIA,EACK,SAASA,IAET,gBAEX,CAEAF,EAAQ,SAAWC,ICRnB,IAAAE,EAAAC,EAAAC,GAAA,UAASC,EAAOC,EAAkB,CAChC,OAAIA,EACK,OAAOA,IAEP,cAEX,CAEAF,EAAQ,OAASC,ICRjB,IAAAE,EAAAC,EAAAC,GAAA,UAASC,GAAmB,CAC1B,QAAQ,IAAI,0BAA0B,CACxC,CAEAD,EAAQ,iBAAmBC,ICJ3B,IAAAC,EAAA,GAAAC,EAAAD,EAAA,sGAAAE,EAAAF,GAAA,IAAAG,EAAyB,OACzBC,EAAuB,OACvBC,EAAiC",
+  "names": ["require_sayHello", "__commonJSMin", "exports", "sayHelloFn", "personToSayHelloTo", "require_sayBye", "__commonJSMin", "exports", "sayBye", "personToSayByeTo", "require_slack", "__commonJSMin", "exports", "postSlackMessage", "src_exports", "__export", "__toCommonJS", "import_sayHello", "import_sayBye", "import_slack"]
+}
